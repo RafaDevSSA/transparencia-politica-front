@@ -1,0 +1,16 @@
+{
+  "include": ["vite.config.*"],
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
+    "outDir": "./node_modules/.tmp",
+    "composite": true,
+    "noEmit": false,
+    "lib": ["ES2023"],
+    "target": "ES2023",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  }
+}

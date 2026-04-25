@@ -1,0 +1,10 @@
+node_modules
+dist
+*.local
+.env*
+.git
+.gitignore
+*.md
+vite.config.js
+vite.config.d.ts
+main.css
